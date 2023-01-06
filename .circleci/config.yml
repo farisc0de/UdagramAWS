@@ -30,7 +30,7 @@ jobs:
           command: npm run frontend:build
       - run:
           name: API Build
-          command:
+          command: npm run api:build
   # deploy step will run only after manual approval
   deploy:
     docker:
