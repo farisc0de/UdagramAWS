@@ -16,8 +16,6 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
 ### Dependencies
 
 ```
@@ -66,6 +64,22 @@ The e2e tests are using Protractor and Jasmine.
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
+
+## Screenshots
+
+- [Screenshots](/screenshots/)
+
+## Documentation
+
+- [Documentation](/documentation/)
+
+## Infra Digram
+
+![](https://i.ibb.co/0KpS4DB/draw-drawio.png)
+
+## App Url
+
+- [S3 Bucket](https://igudagram.s3.amazonaws.com/index.html)
 
 ## License
 
