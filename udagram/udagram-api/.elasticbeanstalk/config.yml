@@ -1,10 +1,6 @@
 branch-defaults:
   default:
     environment: udagrama-api-dev
-environment-defaults:
-  udagrama-api-dev:
-    branch: null
-    repository: null
 global:
   application_name: udagrama-api
   default_ec2_keyname: aws-eb
@@ -14,6 +10,5 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: eb-cli
   sc: null
   workspace_type: Application
