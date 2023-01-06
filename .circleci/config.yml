@@ -30,7 +30,7 @@ jobs:
           command: npm run frontend:build
       - run:
           name: API Build
-          command: npm run api:build
+          command: 
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -44,7 +44,10 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          command: npm run deploy
+          command: |
+          npm run frontend:install
+          npm run api:install
+          npm run deploy
 
 workflows:
   udagram:
